@@ -1,0 +1,36 @@
+.cover {
+	background-image: url("images/Cover_Photo.jpg");
+	background-position: 0% 20%;
+	background-size: cover;
+	height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+	.cover {
+		height: 200px;
+	}
+}
+
+.profile {
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+
+}
+
+.profile-div{
+	text-align: center;
+	margin-top: -100px;
+}
+
+body{
+	background-color: rgb(130, 132, 133);
+}
+
+h1{
+	text-align: center;
+}
+
+p.brand{
+	text-align: center;
+}
