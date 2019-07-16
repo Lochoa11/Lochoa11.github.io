@@ -5,22 +5,27 @@
 	height: 400px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	.cover {
 		height: 200px;
 	}
-}
-
-.profile {
-	border-radius: 100%;
-	width: 200px;
-	height: 200px;
-
-}
-
-.profile-div{
-	text-align: center;
-	margin-top: -100px;
+	.projects{
+		flex-wrap: wrap;
+	}
+	.row{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+/*	div.brand-container{
+		display: flex;
+		justify-content: center;
+	}*/
+/*	div.red{
+		width: 200px;
+	}*/
+	p.brand{
+		width: 300px;
+	}
 }
 
 body{
@@ -31,6 +36,84 @@ h1{
 	text-align: center;
 }
 
-p.brand{
+.profile {
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+}
+
+.profile-div{
+	text-align: center;
+	margin-top: -100px;
+}
+
+div.brand-container{
+	display: flex;
+	justify-content: center;
+}
+
+.brand{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 600px;
+}
+
+
+
+.resume{
 	text-align: center;
 }
+
+.projects-header{
+	text-align: center;
+}
+
+.projects{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.project-text{
+	height: 400px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.projects-video{
+	height: 600px;
+	width: 600px;
+}
+
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.blue{
+	height: 200px;
+	width: 600px;
+	background-color: blue;
+}
+
+.red{
+	height: 200px;
+	width: 600px;
+	background-color: red;
+}
+.green{
+	height: 200px;
+	width: 600px;
+	background-color: green;
+}
+
+/*.green{
+	background-color: green;
+	height: 200px;
+	width: 200px;
+
+}*/
