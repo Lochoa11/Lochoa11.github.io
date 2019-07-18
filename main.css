@@ -9,10 +9,10 @@
 	.cover {
 		height: 200px;
 	}
-	.projects{
+	div.projects{
 		flex-wrap: wrap;
 	}
-	.row{
+	div.row{
 		flex-wrap: wrap;
 		justify-content: center;
 	}
@@ -26,10 +26,21 @@
 	p.brand{
 		width: 300px;
 	}
+	div.project-text{
+		top-margin: -100px;
+		height: 200px;
+		width: 400px;
+		display: flex;
+		justify-content: space-around;
+	}
+	iframe.projects-video{
+		height: 400px;
+	}
 }
 
 body{
-	background-color: rgb(130, 132, 133);
+	background-color: rgb(152, 243, 170);
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1{
@@ -69,10 +80,8 @@ div.brand-container{
 	text-align: center;
 }
 
-.projects{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+div.projects{
+
 }
 
 
@@ -85,29 +94,30 @@ div.brand-container{
 }
 
 .projects-video{
-	height: 600px;
+	height: 400px;
 	width: 600px;
 }
 
 .row{
+	height: 7	00px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .blue{
 	height: 200px;
-	width: 600px;
+	width: 200px;
 	background-color: blue;
 }
 
 .red{
 	height: 200px;
-	width: 600px;
+	width: 200px;
 	background-color: red;
 }
 .green{
 	height: 200px;
-	width: 600px;
+	width: 200px;
 	background-color: green;
 }
 
