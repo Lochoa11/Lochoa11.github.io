@@ -41,6 +41,7 @@
 body{
 	background-color: rgb(152, 243, 170);
 	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
 }
 
 h1{
@@ -91,11 +92,13 @@ div.projects{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	padding: 10px;
 }
 
 .projects-video{
 	height: 400px;
 	width: 600px;
+	padding: 10px;
 }
 
 .row{
